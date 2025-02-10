@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "name": "zoo-assignment",
+  "version": "1.0.0",
+  "description": "A zoo website",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bor-ghol/zoo-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bor-ghol/zoo-assignment/issues"
+  },
+  "homepage": "https://github.com/Bor-ghol/zoo-assignment#readme"
+}

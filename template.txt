@@ -15,14 +15,14 @@ routes:
 
 views: 
  - pages: 
-   group-page.ejs 
-   individual-animal.ejs
+     group-page.ejs 
+     individual-animal.ejs
 
  - partials: 
-   head.ejs 
-   header.ejs 
-   footer.ejs 
-   navbar.ejs
-   sidebar.ejs
-   main.ejs
+     head.ejs 
+     header.ejs 
+     footer.ejs 
+     navbar.ejs
+     sidebar.ejs
+     main.ejs
 
