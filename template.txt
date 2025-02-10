@@ -1,0 +1,28 @@
+Index.js 
+data folder: 
+ - animals.js 
+
+Public folder: 
+ - images 
+ - styles 
+ - videos 
+ - icons
+
+routes: 
+ - reptiles.js 
+ - mammals.js
+ - birds.js 
+
+views: 
+ - pages: 
+   group-page.ejs 
+   individual-animal.ejs
+
+ - partials: 
+   head.ejs 
+   header.ejs 
+   footer.ejs 
+   navbar.ejs
+   sidebar.ejs
+   main.ejs
+
