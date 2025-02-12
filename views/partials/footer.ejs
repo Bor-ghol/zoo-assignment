@@ -1,0 +1,37 @@
+<footer>
+    <div class="footer-content">
+        <p>&copy; <%= new Date().getFullYear() %> Wildlife Explorer. All rights reserved.</p>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/reptiles">Reptiles</a></li>
+                <li><a href="/mammals">Mammals</a></li>
+                <li><a href="/birds">Birds</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<style>
+    footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+    .footer-links {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-links li {
+        display: inline;
+        margin: 0 10px;
+    }
+    .footer-links a {
+        color: #ddd;
+        text-decoration: none;
+    }
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+</style>
