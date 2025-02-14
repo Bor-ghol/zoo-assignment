@@ -1,0 +1,30 @@
+.zoo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A4AC86;
+    padding: 100px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.zoo-header img {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 40px;
+}
+
+.header__title--container {
+    font-family: 'Zilla Slab', Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 66px; 
+    font-weight: bold;
+    margin: 0;
+    color: #3C5724;
+}
