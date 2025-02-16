@@ -1,3 +1,4 @@
+
 /* Sidebar Container */
 .sidebar {
     width: 250px;
@@ -70,5 +71,75 @@
 
     .sidebar-menu li a {
         font-size: 19px;
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #A4AC86;
+}
+
+.menu {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu.active + .nav-links {
+    display: flex;
+}
+
+.menu-icon {
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    text-align: center;
+    background-color: #A4AC86;
+}
+
+.nav-links a {
+    color: #3C5724;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.nav-links li {
+    margin: 10px 0px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+
+    .nav-links li {
+        margin: 0px 20px;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
     }
 }
