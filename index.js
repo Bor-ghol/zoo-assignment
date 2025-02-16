@@ -1,6 +1,6 @@
 import express from "express";
 // import reptils from "./Routes/reptiles.js";
-// import birds from "./Routes/birds.js";
+//import birds from "./Routes/birds.js";
 // import mammals from "./Routes/mammals.js";
 
 const app = express();
@@ -11,7 +11,8 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) =>{
     res.render("pages/group-page.ejs", {
-        title: "Welcome to the Australian Zoo - The Ultimate Wildlife Adventure"
+        title: "Welcome to the Australian Zoo - The Ultimate Wildlife Adventure",
+        pageMain: "home"
 
     })
 })

@@ -4,6 +4,7 @@
     "nodemon": "^3.1.9"
   },
   "name": "zoo-assignment",
+  "type": "module",
   "version": "1.0.0",
   "description": "A zoo website",
   "main": "index.js",
