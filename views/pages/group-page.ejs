@@ -1,11 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><%= title %></title>
 </head>
 <body>
-    <!--Here we include the partials-->
+    <h1>Reptiles</h1>
+    <ul>
+        <% animals.forEach(animal => { %>
+            <li>
+                <a href="/reptiles/<%= animal.name.toLowerCase().replace(/\s+/g, '') %>">
+                    <img src="<%= animal.image %>" alt="<%= animal.name %>" width="100">
+                    <h2><%= animal.name %></h2>
+                    <p><%= animal.shortDescription %></p>
+                </a>
+            </li>
+        <% }); %>
+    </ul>
 </body>
 </html>
