@@ -1,7 +1,7 @@
 import express from "express";
-import reptils from "./Routes/reptiles.js";
-import birds from "./Routes/birds.js";
-import mammals from "./Routes/mammals.js";
+// import reptils from "./Routes/reptiles.js";
+// import birds from "./Routes/birds.js";
+// import mammals from "./Routes/mammals.js";
 
 const app = express();
 const PORT = 8080;
@@ -16,8 +16,8 @@ app.get("/", (req, res) =>{
     })
 })
 
-app.use("/birds", birds);
-app.use("/reptiles", reptils);
-app.use("/mammals", mammals);
+//app.use("/birds", birds);
+// app.use("/reptiles", reptils);
+// app.use("/mammals", mammals);
 
 app.listen(PORT, () => console.log(`listning to port ${PORT}`))
