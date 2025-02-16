@@ -1,0 +1,52 @@
+<% if (locals.sideBar) { %> 
+
+    <% if(sideBar==="birds") { %>
+        <aside class="aside">
+            <ul class="side-bar birds-aside">
+                <li><img src="../images/dove.png" alt="bird" class="animal-icon"></li>
+                <li><a href="birds/cassowary">Cassowary</a></li>
+                <li><a href="birds/Kookaburra">Kookaburra</a></li>
+                <li><a href="birds/Yellow-Tailed-Black-Cockatoo">Yellow Tailed Black Cockatoo</a></li>
+            </ul>
+        </aside>
+         
+    <% } else if(sideBar==="reptiles") { %> 
+        <aside class="aside">
+            <ul class="side-bar  birds-aside">
+                <li><img src="../images/echidna-mammal.png" alt="" class="animal-icon"></li>
+                <li><a href="Reptiles/frill-necked-lizard">frill-necked-lizard</a></li>
+                <li><a href="Reptiles/Hawksbill-Turtle">Hawksbill-Turtle</a></li>
+                <li><a href="Reptiles/Perentie">Perentie</a></li>
+            </ul>
+        </aside>
+
+    <% } else if(sideBar==="mammals") { %>
+        <aside class="aside">
+            <ul class="side-bar  birds-aside">
+                <li><img src="../images/echidna-mammal.png" alt="" class="animal-icon"></li>
+                <li><a href="mammals/Echidna">Echidna</a></li>
+                <li><a href="mammals/Tasmanian Devil">Tasmanian Devil</a></li>
+                <li><a href="mammals/Quokka">Quokka</a></li>
+            </ul>
+        </aside>
+    <% } else { %>
+        <aside class="aside">
+            <ul class="side-bar">
+                <li><img src="../images/dove.png" alt="bird" class="animal-icon"></li>
+                <li><a href="/Reptiles">Cassowary</a></li>
+                <li><a href="/Reptiles">Kookaburra</a></li>
+                <li><a href="/Reptiles">Yellow Tailed Black Cockatoo</a></li>
+                <li><img src="../images/gecko-reptile-shape.png" alt="" class="animal-icon"></li>
+                <li><a href="/mammals">frill-necked lizard</a></li>
+                <li><a href="/mammals">Hawksbill Turtle</a></li>
+                <li><a href="/mammals">Perentie</a></li>
+                <li><img src="../images/echidna-mammal.png" alt="" class="animal-icon"></li>
+                <li><a href="/mammals">Echidna</a></li>
+                <li><a href="/mammals">Tasmanian Devil</a></li>
+                <li><a href="/mammals">Quokka</a></li>
+            </ul>
+        </aside>
+
+   <% } %>
+<% } %>
+ 

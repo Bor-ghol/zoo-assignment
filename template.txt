@@ -26,3 +26,4 @@ views:
      sidebar.ejs
      main.ejs
 
+added type: "module" in package.json

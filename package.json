@@ -1,13 +1,15 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
   },
   "name": "zoo-assignment",
+  "type": "module",
   "version": "1.0.0",
   "description": "A zoo website",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"

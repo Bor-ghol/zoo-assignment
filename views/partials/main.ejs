@@ -1,0 +1,36 @@
+<% if (locals.pageMain) { %>
+
+    <% if(pageMain==="birds") { %>
+        <main class="main">
+        <h2><%= title %></h2>
+        <p>Birds belong to the vertebrates group. Their principal characteristic is that they can fly. To do this they have an aerodynamic body, and their front limbs have evolved into two wings of identical shape and size. </p>
+        </main>
+
+ <% } else if(pageMain==="reptiles") { %>
+    <main class="main">
+        <h2><%= title %></h2>
+        <p><%= presntation %></p>
+        <p>Between the animals, that djurpark is hosting are reptiles. Australia is home to about 14% of the world’s reptilian population and has some of the largest known snake and lizard fossils in the world. All reptiles are cold-blooded, have scales, and reproduce either by laying eggs or giving birth to live young.</p>
+    </main>
+
+   <% }else if(pageMain==="mammals") { %>
+    <main class="main">
+        <h2><%= title %></h2>
+        <p>Mammals are characterised by the presence of milk-producing mammary glands for feeding their young, a broad neocortex region of the brain, fur or hair, and three middle ear bones </p>
+    </main>
+
+  <% } else { %>
+    <main class="main">
+        <h2><%= title %></h2>
+        <p>Explore the fascinating wildlife of Australia! 
+        Located an hour north of Brisbane on Queensland's Sunshine 
+        Coast, Australia Zoo has a team of passionate conservationists 
+        working around-the-clock to deliver animal experiences like no other.
+        Steve and Terri Irwin's vision has always been to make Australia Zoo the
+        biggest and best wildlife conservation facility in the world. 
+        There is no zoo like Australia Zoo. </p>
+    </main>
+
+ <% } %>
+
+ <% } %>

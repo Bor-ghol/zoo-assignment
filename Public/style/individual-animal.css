@@ -1,0 +1,57 @@
+.birds-aside {
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.animal-item {
+    padding-top: 20px;
+}
+.animal-detail-container {
+    background-color: #302e2cba;
+    color:beige;
+    margin: 30px 100px;
+}
+
+.displ-row  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.displ-col {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+}
+
+.displ-col h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.animal-item {
+    margin: 10px 200px;
+}
+.animal-image {
+    height: 370px;
+    width: 250px;
+}
+
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px;
+    flex-wrap: wrap;
+}
+
+.animal-list li {
+    padding: 10px;
+    list-style: none;
+}
+
+.animal-detail-image {
+    height: 100%;
+    width: 100%;
+}

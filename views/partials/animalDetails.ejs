@@ -1,0 +1,36 @@
+<div class="animals-details">
+    <div class="animal-detail-container">
+        <div class="animal-item">
+        <% if (locals.animal) { %>
+            <div class="displ-row">
+                <div class="animal-image">
+                    <img src="<%= animal.src %>" alt="animal image" class="animal-detail-image">
+                </div>
+                <div class="displ-col">
+
+                    
+                    <h1> <%= animal.name %></h1>
+                    <p><%= animal.description %></p>
+                </div>
+            </div>
+        </div>
+            <ul class="animal-list">
+                <li>lifespan :<%= animal.lifespan %></li>
+                <li>group :<%= animal.group %></li>
+                <li>food :<%= animal.food %></li>
+                <li>length :<%= animal.length %></li>
+                <li>weigh :<%= animal.weigh %></li>
+                <li>found :<%= animal.found %></li>
+            </ul>
+       
+</div>
+    <% } else { %>
+
+        <main class="main">
+            <h2><%= title %></h2>
+            <p>Birds belong to the vertebrates group. Their principal characteristic is that they can fly. To do this they have an aerodynamic body, and their front limbs have evolved into two wings of identical shape and size.</p>
+            </main>
+
+    <%}%>
+</div>
+

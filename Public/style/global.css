@@ -1,0 +1,118 @@
+:root {
+    --blue: #07A1C7;
+    --darkOrange: #C74100;
+    --lightBlue: #60CDF3;
+    --brightBlue:#53A2B9;
+    --gry: #BBBAC7;
+    --lightYello: #D5AD70;
+    --niceRed: #a51b2d;
+    --beige: #DCD0BA;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+      
+}
+
+.bg-image {
+    background-image: url("../images/pexels-pixabay-45853.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   /* background-size: 100% 100%; */
+}
+
+.header__title {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.header-element {
+     background-color: var(--beige); 
+    text-align: center;
+}
+
+.menu {
+    padding-bottom: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--niceRed);
+    font-size: 1.2rem;
+    margin: 10px;  
+}
+
+.main {
+    text-align: center;
+    margin-left: 100px;
+    background-color: #3734309f;
+    width: 70%;
+    padding: 100px 30px 50px 30px;
+    color: beige;
+    font-size: 1.2rem;
+}
+
+.main h2 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    margin: 0;   
+    flex-direction: row;   
+}
+
+.aside {
+    background-color: var(--beige); 
+    width: 280px;
+}
+
+/* Icons */
+.animal-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.aside ul {
+    display: flex;
+    flex-direction: column;   
+}
+
+.aside ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.aside ul li a{
+   color: var(--niceRed);
+   width: 200px;
+   text-decoration: none;
+   font-size: 1rem;
+}
+
+footer {
+    background-color: #FFEFC8;
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+
+}
+
+footer p {
+    padding-top: 20px;
+}
