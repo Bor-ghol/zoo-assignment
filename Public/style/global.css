@@ -28,3 +28,22 @@
     margin: 0;
     color: #3C5724;
 }
+
+@media screen and (max-width: 768px) {
+    .zoo-header {
+        flex-direction: column;
+        padding: 60px;
+    }
+
+    .zoo-header img {
+        position: static;
+        transform: none;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .header__title {
+        font-size: 48px;
+    }
+}
