@@ -1,0 +1,41 @@
+:root {
+    --blue: #07A1C7;
+    --darkOrange: #C74100;
+    --lightBlue: #60CDF3;
+    --brightBlue:#53A2B9;
+    --gry: #BBBAC7;
+    --lightYello: #D5AD70;
+    --niceRed: #a51b2d;
+    --beige: #DCD0BA;
+    --navbar: #A4AC86;
+    --mainBkg:rgb(117, 127, 80);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+      
+}
+.main-home-page {
+    width: 800px;
+    background-color: var(--mainBkg);
+    /* after implement header and sidebar delete height */
+    height: 500px;
+    padding: 50px 10px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.main-home-page h2 {
+    padding: 10px 5px 20px 5px;
+}
